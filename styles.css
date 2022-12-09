@@ -1,0 +1,31 @@
+img {
+    max-width: 50%;
+}
+
+hr {
+    max-width: 50%;
+    border: 5px solid aqua;
+    border-radius: 5px;
+    margin-left: 0;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+
+.header {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.content {
+    text-align: center;
+    margin: 100px;
+    padding: 100px;
+}
+
