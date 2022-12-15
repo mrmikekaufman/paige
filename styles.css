@@ -1,33 +1,52 @@
-img {
-    max-width: 50%;
-}
 
-.header-text {
+.header-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 16px;
     gap: 16px;
-    margin: 16px 8px 16px 16px;
+    margin-right: 100px;
 }
-
-.right {
-    display: flex;
-    gap: 16px;
-}
-
-.header-image {
-    background-image: url(./images/typewriter.jpg);
-    height: 500px;
-    background-position: center;
-    border: 2px solid grey;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    opacity: 80%;
-} 
 
 a {
-    color: white;
+    color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: none;
+}
+
+.header-links a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+
+a img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.header {
+    background-color: white;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    flex-shrink: 0;
+}
+
+.content {
+    background-color: aquamarine;
+    height: 500px;
+}
+
+.logo img {
+    height: 80%;
+    width: 80%;
 }
