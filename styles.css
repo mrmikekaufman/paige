@@ -2,51 +2,57 @@
 .header-links {
     display: flex;
     justify-content: flex-end;
-    padding: 16px;
-    gap: 16px;
-    margin-right: 100px;
+    gap: 8px;
+    flex-shrink: 2;
 }
 
 a {
     color: black;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5vw;
     text-decoration: none;
+    text-align: center;
 }
 
 .header-links a {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
-    flex-shrink: 0;
-    margin-left: 8px;
+    margin-left: 1px;
+    width: 10%;
+    height: auto;
+    flex-shrink: 1;
 }
 
 a img {
-    width: 40px;
-    height: 40px;
     margin-bottom: 5px;
+    width: 30%;
+    height: auto;
 }
 
 .header {
     background-color: white;
-    height: 160px;
+    height: 20%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo {
-    flex-shrink: 0;
+    flex-shrink: 2;
 }
 
 .content {
-    background-color: aquamarine;
-    height: 500px;
+    background-image: url("images/paigebackground.png");
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo img {
-    height: 80%;
+    height: auto;
     width: 80%;
+    margin-left: 5px;
 }
